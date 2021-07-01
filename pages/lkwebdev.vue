@@ -1,6 +1,6 @@
 <template>
   <div class="blocks">
-    <div id="firstBlock" class="block full-height">
+    <div id="firstBlock" class="block">
       <div class="overlay"></div>
       <FirstBlock />
     </div>
@@ -17,17 +17,13 @@
 </template>
 
 <script>
-import FirstBlock from '@/components/Home/FirstBlock/FirstBlock.vue'
-import SecondBlock from '@/components/Home/SecondBlock/SecondBlock.vue'
-import ThirdBlock from '@/components/Home/ThirdBlock/ThirdBlock.vue'
-import FourthBlock from '@/components/Home/FourthBlock/FourthBlock.vue'
+import FirstBlock from '@/components/LKWebDev/FirstBlock/FirstBlock.vue'
+import SecondBlock from '@/components/LKWebDev/SecondBlock/SecondBlock.vue'
 
 export default {
   components: {
     FirstBlock,
-    SecondBlock,
-    ThirdBlock,
-    FourthBlock
+    SecondBlock
   }
 }
 </script>
@@ -54,6 +50,9 @@ export default {
   }
   .container {
     max-width: 1280px;
+  }
+  #header {
+    position: relative!important;
   }
   .block.full-height {
     min-height: 100vh;
