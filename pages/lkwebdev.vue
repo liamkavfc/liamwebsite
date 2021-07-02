@@ -4,15 +4,15 @@
       <div class="overlay"></div>
       <FirstBlock />
     </div>
-    <div id="secondBlock" class="block full-height">
+    <div id="secondBlock" class="block">
       <SecondBlock />
     </div>
-    <div id="thirdBlock" class="block full-height">
+    <!-- <div id="thirdBlock" class="block full-height">
       <ThirdBlock />
     </div>
     <div id="fourthBlock" class="block full-height">
       <FourthBlock />
-    </div>
+    </div> -->
   </div>
 </template>
 
