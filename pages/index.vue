@@ -10,6 +10,9 @@
     <div id="thirdBlock" class="block full-height">
       <ThirdBlock />
     </div>
+    <div id="myWorkBlock" class="block full-height">
+      <MyWorkBlockVue />
+    </div>
     <div id="fourthBlock" class="block full-height">
       <FourthBlock />
     </div>
@@ -21,13 +24,15 @@ import FirstBlock from '@/components/Home/FirstBlock/FirstBlock.vue'
 import SecondBlock from '@/components/Home/SecondBlock/SecondBlock.vue'
 import ThirdBlock from '@/components/Home/ThirdBlock/ThirdBlock.vue'
 import FourthBlock from '@/components/Home/FourthBlock/FourthBlock.vue'
+import MyWorkBlockVue from '~/components/Home/MyWorkBlock/MyWorkBlock.vue'
 
 export default {
   components: {
     FirstBlock,
     SecondBlock,
     ThirdBlock,
-    FourthBlock
+    FourthBlock,
+    MyWorkBlockVue
   }
 }
 </script>

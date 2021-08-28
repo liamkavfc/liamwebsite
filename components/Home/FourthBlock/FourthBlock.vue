@@ -49,7 +49,7 @@ export default {
 
 <style>
   #fourthBlock {
-    background: #eee;
+    background: #fff;
     padding: 7.5rem 0;
   }
 </style>
